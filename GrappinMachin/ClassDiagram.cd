@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GrabSprite" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAEJIAAACAAAAAAIAAAAEAQAAAAAA=</HashCode>
+      <FileName>ViewSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSprite" Collapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAIAAIAAAAAIEAAAAAAAAAAAAAAAAQAQAAAA=</HashCode>
+      <FileName>ViewSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sector" Collapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAACAAAAAAIAAIAQAAAAABAAAAAQAAAAAQA=</HashCode>
+      <FileName>ViewSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapSprite" Collapsed="true">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAIAAAAAAAAYAAIAAAAAAAAIAAEAKQAAAAAA=</HashCode>
+      <FileName>ViewSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewController" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEDARAACAAAACAAAECAAAAAACAAAAAAAAQAAAIAA=</HashCode>
+      <FileName>ViewSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller" Collapsed="true">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAACAAAAAAAAAAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardController" Collapsed="true">
+    <Position X="16.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPUSpinnerController" Collapsed="true">
+    <Position X="14" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgASgAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventManager" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCAAAAAAAAAAAAAAAAAAIEAAAgAAAAAAAAAAEA=</HashCode>
+      <FileName>EventManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Events" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Events::__unnamed_enum_0006_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Events.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAAAAAACAIAAAAAgAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsTime">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recursive" Collapsed="true">
+    <Position X="16.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKCAABAAAAAAAAkAAAAAEAAAIAAAAAAJQAAAAAAABA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TickEvent" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="Events" ManuallyRouted="true">
+      <Path>
+        <Point X="14" Y="1.062" />
+        <Point X="14" Y="3.375" />
+        <Point X="15.225" Y="3.375" />
+        <Point X="15.225" Y="5.375" />
+        <Point X="14" Y="5.375" />
+        <Point X="14" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuitEvent" Collapsed="true">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStartedEvent" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMoveRequest" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMoveEvent" Collapsed="true">
+    <Position X="26.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAACAAAIAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildMapEvent" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatePlayerEvent" Collapsed="true">
+    <Position X="20" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAIAAAAIAAAAAAAAEAAAgAAAACAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeSectorEvent" Collapsed="true">
+    <Position X="24.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResizeEvent" Collapsed="true">
+    <Position X="29" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQIAAIgIAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreateGrabEvent" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAgAAEAAoAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeleteGrabEvent" Collapsed="true">
+    <Position X="22.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveGrabEvent" Collapsed="true">
+    <Position X="18.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameController" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABABAAAgAAAEAAAEAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAACAAAAAAAAQAAAAAAAAAAAAQQIAABA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grab" Collapsed="true">
+    <Position X="18.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAACIAQAAQAAgAAAAAAQAAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GameState" Collapsed="true">
+    <Position X="31.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAEAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
